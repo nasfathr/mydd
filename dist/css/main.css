@@ -8567,6 +8567,9 @@ p {
 .bc-inline li {
   display: inline; }
 
+table a {
+  color: #3a3f61; }
+
 #bc-content {
   color: #3a3f61; }
 
@@ -8586,6 +8589,9 @@ span.g-head {
   margin-left: 17px; }
 
 .grade-wrapper {
+  margin-top: 50px; }
+
+.dashboard-cont-wraper {
   margin-top: 50px; }
 
 .bc-btn {
@@ -10196,6 +10202,8 @@ table {
     background-color: #585e78 !important;
     color: white !important;
     cursor: pointer; }
+    .table-striped > tbody > tr:nth-of-type(odd):hover a {
+      color: white; }
 
 .table-striped > tbody > tr:nth-of-type(even) {
   background: #f3f3f3; }
@@ -10203,3 +10211,5 @@ table {
     background-color: #585e78 !important;
     color: white !important;
     cursor: pointer; }
+    .table-striped > tbody > tr:nth-of-type(even):hover a {
+      color: white; }
