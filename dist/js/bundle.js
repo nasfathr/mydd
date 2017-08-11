@@ -1,1 +1,1 @@
-"use strict";var test=function(t,e){return"Test: "+t+" and "+e};console.log(test("yo","bro"));
+"use strict";$("tr").click(function(){window.location=$(this).find("a").attr("href")}).hover(function(){$(this).toggleClass("hover")});
