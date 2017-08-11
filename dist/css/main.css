@@ -8521,7 +8521,7 @@ body {
   width: 100%; }
 
 body {
-  background: gray;
+  background: white;
   margin: 0;
   font-size: 17px;
   font-family: Open-sans-r;
@@ -8567,8 +8567,26 @@ p {
 .bc-inline li {
   display: inline; }
 
+#bc-content {
+  color: #3a3f61; }
+
+span.grade-text {
+  display: block;
+  font-size: 130px;
+  font-weight: bold; }
+
 .clearfix {
   clear: both; }
+
+.grade-content-wrapper {
+  margin-top: 50px;
+  line-height: 30px; }
+
+span.g-head {
+  margin-left: 17px; }
+
+.grade-wrapper {
+  margin-top: 50px; }
 
 .bc-btn {
   display: inline-block;
@@ -9678,7 +9696,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 header {
   background: #3a3f61;
-  padding: 10px; }
+  padding: 0px; }
+  header .bc-logo {
+    width: 200px; }
 
 .login-main-wrapper {
   /* on checked */
@@ -10165,3 +10185,21 @@ a.bc-slide_btn {
     left: 50px; }
   .next_btn {
     right: 50px; } }
+
+table {
+  color: #243243;
+  margin-top: 50px; }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #f9f9f9 !important; }
+  .table-striped > tbody > tr:nth-of-type(odd):hover {
+    background-color: #585e78 !important;
+    color: white !important;
+    cursor: pointer; }
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background: #f3f3f3; }
+  .table-striped > tbody > tr:nth-of-type(even):hover {
+    background-color: #585e78 !important;
+    color: white !important;
+    cursor: pointer; }

@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background:gray;
+  background:white;
   margin: 0;
   font-size: $font-size-base;
   font-family: $open-regular;
@@ -90,8 +90,32 @@ p {
   }
 }
 
+#bc-content{
+  color: #3a3f61;
+}
+
+span.grade-text {
+    display: block;
+    font-size: 130px;
+    font-weight: bold;
+}
 .clearfix{
   clear:both;
+}
+
+
+.grade-content-wrapper{
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+
+span.g-head {
+    margin-left: 17px;
+}
+
+.grade-wrapper {
+    margin-top: 50px;
 }
 
 
