@@ -45,7 +45,6 @@ def send_temp(temp)
   response.body
 end
 
-
 send_grade(1)
 last_temp = 13
 100.times do
