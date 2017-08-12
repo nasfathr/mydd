@@ -25,3 +25,8 @@ Instruction
     <div class="att-m2x-widget" data-widget-url="https://api-m2x.att.com/v2/widgets/70c286c6" data-m2x-key="13d45b56747c52e5936a81c831961e65"></div>
     <!-- Include the following script tag only once per page -->
     <script src="https://m2x.att.com/widgets.js" async></script>
+
+## Humidity wheel
+    <div class="att-m2x-widget" data-widget-url="https://api-m2x.att.com/v2/widgets/b373159f" data-m2x-key="e65c1b78869cad9c92d44a3755193e83"></div>
+    <!-- Include the following script tag only once per page -->
+    <script src="https://m2x.att.com/widgets.js" async></script>
